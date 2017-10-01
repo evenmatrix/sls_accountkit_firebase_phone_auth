@@ -1,6 +1,5 @@
-# sales-afrique-serverless-services
-
-Services for Sales Afrique app based on the Serverless Framework. Details of the framework are shown below
+# User Login Service using facebook accountkit for login and firebase backend.
+Implements Firebase custom token login using facebook accountkit tokens.
 
 
 1. **Build Common**
@@ -25,30 +24,3 @@ Services for Sales Afrique app based on the Serverless Framework. Details of the
   serverless deploy -v
   ```
 
-5. **Deploy the Function:**
-
-  Use this to quickly upload and overwrite your AWS Lambda code on AWS, allowing you to develop faster.
-  ```bash
-  serverless deploy function -f hello
-  ```
-
-6. **Invoke the Function:**
-
-  Invokes an AWS Lambda Function on AWS and returns logs.
-  ```bash
-  serverless invoke -f hello -l
-  ```
-
-7. **Fetch the Function Logs:**
-
-  Open up a separate tab in your console and stream all logs for a specific Function using this command.
-  ```bash
-  serverless logs -f hello -t
-  ```
-
-8. **Remove the Service:**
-
-  Removes all Functions, Events and Resources from your AWS account.
-  ```bash
-  serverless remove
-  ```
