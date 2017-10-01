@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "headers": {
+    "host": "localhost:8000",
+    "user-agent": "curl/7.49.1",
+    "accept": "*/*"
+  },
+  "body": "{\n  \"userId\": \"peer\",\n  \"password\": \"password\"\n}"
+}

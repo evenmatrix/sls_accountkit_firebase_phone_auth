@@ -1,0 +1,42 @@
+{
+  "name": "@sf/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "clean": "rimraf lib",
+    "build": "npm run clean && npm run compile",
+    "lint": "tslint src/**/*.ts",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Onyemachi Okafor <peerwaya@yahoo.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/moment-timezone": "^0.2.34",
+    "@types/node": "^8.0.15",
+    "@types/ramda": "^0.24.4",
+    "@types/uuid": "^3.4.0",
+    "@types/validator": "^6.2.1",
+    "@types/winston": "^2.3.3",
+    "bignumber.js": "^4.0.2",
+    "change-case": "^3.0.1",
+    "convict": "^4.0.0",
+    "immutable": "^3.8.1",
+    "keypather": "^2.0.1",
+    "moment": "^2.18.1",
+    "ramda": "^0.24.1",
+    "speakeasy": "^2.0.0",
+    "uuid": "^3.1.0",
+    "validator": "^8.0.0",
+    "winston": "^2.3.1"
+  }
+}

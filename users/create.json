@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "headers": {
+    "host": "localhost:8000",
+    "user-agent": "curl/7.49.1",
+    "accept": "*/*"
+  },
+  "body": "{\n  \"userName\": \"peer\",\n  \"email\": \"peerwaya@yahoo.com\",\n  \"firstName\": \"Onyemaechi\",\n  \"lastName\": \"Okafor\",\n  \"password\": \"password\"\n}",
+  "path": {},
+  "query": {
+    "foo": "bar"
+  }
+}

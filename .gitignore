@@ -1,0 +1,14 @@
+# package directories
+.DS_Store
+.vscode
+.idea
+dist
+lib
+node_modules
+jspm_packages
+node_modules/
+npm-debug.log
+yarn-error.log
+# Serverless directories
+.serverless
+secrets.*.yml
